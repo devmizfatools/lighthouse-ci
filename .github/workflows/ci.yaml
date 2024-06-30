@@ -20,3 +20,6 @@ jobs:
 
       - name: Bundle and Output
         run: npm run build
+
+      - name: Lighthouse Benchmarks
+        run: npm run ci:lighthouse

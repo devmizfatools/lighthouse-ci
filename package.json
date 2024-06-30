@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "webpack --mode=development",
     "build": "webpack --mode=production",
-    "lint": "eslint . --fix",
+    "lint": "eslint ./src --fix",
     "ci:lint": "eslint ./src",
     "test": "jest --watch",
     "ci:test": "jest --ci",
